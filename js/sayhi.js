@@ -1,0 +1,1 @@
+var custom={getTimeState:function(){var t=(new Date).getHours(),e="";return 0<=t&&t<=5?e="晚安😴":5<t&&t<=10?e="早上好👋":10<t&&t<=14?e="中午好👋":14<t&&t<=18?e="下午好👋":18<t&&t<=24&&(e="晚上好👋"),e},sayhi:function(){var t=document.getElementById("author-info__sayhi");t&&(t.innerHTML=custom.getTimeState()+"！我是")}};custom.sayhi();

@@ -1,0 +1,1 @@
+function whenDOMReady(){""===GLOBAL_CONFIG_SITE.title.replace("ZHHEO","")?document.getElementById("page-name-text").style.display="none":document.querySelector("#page-name-text>span").innerHTML=document.title.split(" | ZHHEO")[0]}whenDOMReady(),document.addEventListener("pjax:complete",whenDOMReady);

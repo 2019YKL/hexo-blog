@@ -1,0 +1,1 @@
+function catalogActive(){let t=document.getElementById("catalog-list");var e;t&&(t.addEventListener("mousewheel",function(e){t.scrollLeft-=e.wheelDelta/2,e.preventDefault()},!1),(e=document.getElementById(decodeURIComponent(window.location.pathname))).classList.add("selected"),t.scrollLeft=e.offsetLeft-t.offsetLeft-(t.offsetWidth-e.offsetWidth)/2)}catalogActive();
